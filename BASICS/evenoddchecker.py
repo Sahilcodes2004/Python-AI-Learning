@@ -1,8 +1,10 @@
-import random
-list=[1,2,3,4,5,6,7,8,9,10]
-x=random.choice(list)
-print (x)
-if x%2==0:
-    print("even")
-else:
-    print("odd")
+def check(n):
+    if n%2==0:
+     return "even"
+    else:
+      return "odd"
+
+
+n=int(input("Enter a number"))
+y=check(n)
+print(y)
