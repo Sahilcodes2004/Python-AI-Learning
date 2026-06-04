@@ -1,3 +1,3 @@
-from cat import walk
-cat.walk()
+import math
+print(math.sqrt(4))
 
