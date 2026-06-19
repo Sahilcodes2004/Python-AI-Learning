@@ -7,4 +7,5 @@ print(task)
 print(artice)
 for char in name:
     print(char)
-    """leanred string basics"""
+    
+"""leanred string basics"""
