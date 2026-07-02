@@ -1,6 +1,6 @@
   
 
-age=6
+age=int(input("enter the age:\n"))
 if age>=18:
     print("you are adult")
 elif age >=12:
@@ -9,6 +9,7 @@ elif age<12:
     print("you are a child")
 else:
     print("you are ababy")
+'''
 def is_adult(age):
  if age>18:
     return "adult"
@@ -16,3 +17,5 @@ def is_adult(age):
     return"not an adult"
 x=29
 print(is_adult(x))
+'''
+print("you are a hum")
