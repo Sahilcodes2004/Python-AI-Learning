@@ -10,3 +10,9 @@ for item in items:
     if item==2:
      continue
     print(item)
+
+
+for i in range(11):
+   print(i*i)
+else:
+   print("Square of first 10 numbers")
